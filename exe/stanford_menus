@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require 'stanford_menus'
+require 'thor'
+
+StanfordMenus::CLI.start(ARGV)
